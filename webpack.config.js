@@ -26,7 +26,6 @@ module.exports = {
                     to: "", 
                     filter: (path) =>{
                         if (path.includes('index.html')) {
-                            console.log('path')
                             return false
                         }
                         return true
